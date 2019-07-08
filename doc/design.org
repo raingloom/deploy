@@ -150,7 +150,7 @@ Arguably the directory should be /var/deploy/stunnel, but I think
 in this case I prefer to see what is happening in /etc.
 
 With git it is harder. The information about backtracking would be
-contained in /etc/.git (which I also use) and manually restored.
+contained in `/etc/.git` (which I also use) and manually restored.
 
 With the final option, capturing error conditions, we can maintain
 previous state (somewhere) and write back the originals if the
